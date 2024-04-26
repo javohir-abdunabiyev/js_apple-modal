@@ -1,0 +1,67 @@
+.dialog {
+    width: 592px;
+    height: 388px;
+    position: relative;
+}
+
+.modal {
+    background-color: #000000;
+    color:  #FFFFFF;
+    width: 420px;
+    height: 48px;
+    border: 0;
+}
+
+input {
+    width: 420px;
+    height: 48px;
+    background-color: #DADADA;
+    border: 0;
+}
+
+.texts button {
+    width: 420px;
+    height: 48px;
+    background-color: #0094FF;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.close {
+    width: 24px;
+    height: 24px;
+    border: 0;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fade {
+    animation: fade .5s ease;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.1;
+        scale: 0.2;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
